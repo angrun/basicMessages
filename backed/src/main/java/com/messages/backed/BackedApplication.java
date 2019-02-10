@@ -1,5 +1,6 @@
-package com.messages.backend;
+package com.messages.backed;
 
+import org.aspectj.lang.annotation.Before;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

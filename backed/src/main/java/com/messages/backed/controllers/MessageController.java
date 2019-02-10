@@ -1,8 +1,8 @@
-package com.messages.backend.controllers;
+package com.messages.backed.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.messages.backend.services.MessageService;
+import com.messages.backed.services.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

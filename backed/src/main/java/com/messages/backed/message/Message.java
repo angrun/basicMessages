@@ -1,4 +1,4 @@
-package com.messages.backend.message;
+package com.messages.backed.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

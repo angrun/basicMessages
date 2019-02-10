@@ -1,4 +1,4 @@
-package com.messages.backend;
+package com.messages.backed;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

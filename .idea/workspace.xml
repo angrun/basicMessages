@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9efdf94-aad3-4971-a180-62f528ead224" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/backend_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/backend_test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/BackedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/test/java/com/messages/backend/BackedApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/test/java/com/messages/backed/BackedApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.postcssrc.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/backed/.gradle/" />
@@ -30,19 +40,20 @@
     <session id="725673424">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="editorconfig" value="1" />
-          <entry key="gradle" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="gradle" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="13" />
-          <entry key="js" value="12" />
+          <entry key="java" value="16" />
+          <entry key="js" value="13" />
           <entry key="json" value="5" />
           <entry key="md" value="2" />
           <entry key="png" value="3" />
@@ -52,14 +63,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="2" />
+          <entry key="Groovy" value="4" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="16" />
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="13" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
           <entry key="Vue.js" value="12" />
         </counts>
@@ -67,10 +78,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="gradle" value="13" />
+          <entry key="gradle" value="16" />
           <entry key="html" value="5" />
-          <entry key="java" value="594" />
-          <entry key="js" value="50" />
+          <entry key="java" value="595" />
+          <entry key="js" value="51" />
           <entry key="properties" value="14" />
           <entry key="txt" value="14" />
           <entry key="vue" value="1174" />
@@ -78,10 +89,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="13" />
+          <entry key="Groovy" value="16" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="594" />
-          <entry key="JavaScript" value="50" />
+          <entry key="JAVA" value="595" />
+          <entry key="JavaScript" value="51" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="14" />
           <entry key="Vue.js" value="1174" />
@@ -91,32 +102,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backed/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/Message.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/controllers/MessageController.java">
+        <entry file="file://$PROJECT_DIR$/frontend/.postcssrc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -127,74 +117,6 @@
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/message/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/services/MessageService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/BackedApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#636#809#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -211,7 +133,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -406,7 +328,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/backed" value="6198967882000" />
+        <entry key="$PROJECT_DIR$/backed" value="0" />
         <entry key="$PROJECT_DIR$/backed/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/backed/build.gradle" value="1009283518" />
         <entry key="$PROJECT_DIR$/backed/gradle/wrapper/gradle-wrapper.properties" value="2290625707" />
@@ -652,6 +574,8 @@
         <option value="$PROJECT_DIR$/frontend/src/main.js" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/src/components/Message.vue" />
+        <option value="$PROJECT_DIR$/backed/settings.gradle" />
+        <option value="$PROJECT_DIR$/frontend/.postcssrc.js" />
       </list>
     </option>
   </component>
@@ -687,7 +611,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -695,57 +618,13 @@
               <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
               <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -760,12 +639,12 @@
     <property name="SearchEverywhereHistoryKey" value="webpack.dev.conf.js&#9;FILE&#9;file:///Users/annagrund/Desktop/basicMessages/frontend/build/webpack.dev.conf.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549789375945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549789954627" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -786,10 +665,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BackedApplication">
+  <component name="RunManager" selected="Gradle.backed">
+    <configuration name="backed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backed" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="BackedApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="backend_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.messages.backend.BackedApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackedApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backed_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.messages.backed.BackedApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -805,7 +707,14 @@
     <list>
       <item itemvalue="Spring Boot.BackedApplication" />
       <item itemvalue="Spring Boot.BackedApplication (1)" />
+      <item itemvalue="Spring Boot.BackedApplication (2)" />
+      <item itemvalue="Gradle.backed" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.backed" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -818,7 +727,8 @@
       <option name="presentableId" value="Default" />
       <updated>1549740431426</updated>
       <workItem from="1549740432881" duration="2439000" />
-      <workItem from="1549743120997" duration="15999000" />
+      <workItem from="1549743120997" duration="16694000" />
+      <workItem from="1549789995970" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="bugs and fixes">
       <created>1549788406885</created>
@@ -831,13 +741,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18438000" />
+    <option name="totallyTimeSpent" value="19474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="231" y="-1033" width="1268" height="978" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2822186" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2862969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -854,7 +763,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3295711" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5733634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5733634" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295711" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -898,30 +807,9 @@
     <entry file="file://$PROJECT_DIR$/frontend/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/entities/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/entities/Message.java" />
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services.java" />
+    <entry file="file://$PROJECT_DIR$/backed/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/frontend/build/build.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -937,82 +825,16 @@
     <entry file="file://$PROJECT_DIR$/frontend/config/test.env.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/Message.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/assets/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/Message.vue" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/logo.png" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.html" />
     <entry file="file://$PROJECT_DIR$/frontend/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-980">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/BackedApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#636#809#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/message/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/services/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Header.vue" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer.vue" />
     <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1030,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backed/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -1047,10 +862,18 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Message.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java" />
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java" />
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/message/Message.java" />
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" />
+    <entry file="file://$PROJECT_DIR$/backed/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/backed/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/backed/src/test/java/com/messages/backed/BackedApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/backed/settings.gradle" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1059,13 +882,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/controllers/MessageController.java">
+    <entry file="file://$PROJECT_DIR$/backend/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/.postcssrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1086,7 +913,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1121,7 +948,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>basicMessages</last-edited>
+          <last-edited>backend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1146,6 +973,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
