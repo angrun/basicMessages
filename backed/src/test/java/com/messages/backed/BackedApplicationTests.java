@@ -12,6 +12,5 @@ public class BackedApplicationTests {
     @Test
     public void contextLoads() {
     }
-
 }
 

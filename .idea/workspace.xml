@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9efdf94-aad3-4971-a180-62f528ead224" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/backend_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/backend_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/BackedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/message/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backed/src/test/java/com/messages/backend/BackedApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/test/java/com/messages/backed/BackedApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.postcssrc.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,20 +33,21 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="editorconfig" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="gradle" value="4" />
+          <entry key="gradle" value="5" />
           <entry key="html" value="1" />
-          <entry key="java" value="16" />
+          <entry key="java" value="17" />
           <entry key="js" value="13" />
           <entry key="json" value="5" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="png" value="3" />
           <entry key="properties" value="1" />
           <entry key="vue" value="12" />
@@ -63,13 +55,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="4" />
+          <entry key="Groovy" value="5" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="17" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="13" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
           <entry key="Vue.js" value="12" />
@@ -102,11 +94,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/.postcssrc.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backed/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -133,7 +153,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -328,7 +348,6 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/backed" value="0" />
         <entry key="$PROJECT_DIR$/backed/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/backed/build.gradle" value="1009283518" />
         <entry key="$PROJECT_DIR$/backed/gradle/wrapper/gradle-wrapper.properties" value="2290625707" />
@@ -533,7 +552,6 @@
         <entry key="$PROJECT_DIR$/../Hw3.java" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../Hw6.java" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../Hw8.java" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/backed" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../e" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../exjdbc" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../exjpa" value="PREVIEW" />
@@ -567,15 +585,15 @@
         <option value="$PROJECT_DIR$/frontend/src/components/Footer.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/Header.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/Ninjas.vue" />
-        <option value="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" />
         <option value="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java" />
         <option value="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java" />
         <option value="$PROJECT_DIR$/frontend/src/App.vue" />
         <option value="$PROJECT_DIR$/frontend/src/main.js" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/src/components/Message.vue" />
-        <option value="$PROJECT_DIR$/backed/settings.gradle" />
         <option value="$PROJECT_DIR$/frontend/.postcssrc.js" />
+        <option value="$PROJECT_DIR$/backed/settings.gradle" />
+        <option value="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" />
       </list>
     </option>
   </component>
@@ -611,6 +629,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -618,13 +639,74 @@
               <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
               <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -639,7 +721,7 @@
     <property name="SearchEverywhereHistoryKey" value="webpack.dev.conf.js&#9;FILE&#9;file:///Users/annagrund/Desktop/basicMessages/frontend/build/webpack.dev.conf.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549789954627" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549801068326" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -665,7 +747,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.backed">
+  <component name="RunManager" selected="Spring Boot.BackedApplication (2)">
     <configuration name="backed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -729,6 +811,7 @@
       <workItem from="1549740432881" duration="2439000" />
       <workItem from="1549743120997" duration="16694000" />
       <workItem from="1549789995970" duration="341000" />
+      <workItem from="1549800836399" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="bugs and fixes">
       <created>1549788406885</created>
@@ -741,12 +824,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19474000" />
+    <option name="totallyTimeSpent" value="19742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="231" y="-1033" width="1268" height="978" extended-state="0" />
+    <frame x="236" y="26" width="1268" height="978" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2862969" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29119086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -763,7 +846,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3295711" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5733634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41422123" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295711" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -793,14 +876,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="bugs and fixes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -846,9 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,11 +941,17 @@
     <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java" />
     <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java" />
     <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/message/Message.java" />
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" />
     <entry file="file://$PROJECT_DIR$/backed/build.gradle" />
     <entry file="file://$PROJECT_DIR$/backed/.gitignore" />
     <entry file="file://$PROJECT_DIR$/backed/src/test/java/com/messages/backed/BackedApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/backed/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/backend/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/frontend/.postcssrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -882,17 +960,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+    <entry file="file://$PROJECT_DIR$/frontend/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/.postcssrc.js">
+    <entry file="file://$PROJECT_DIR$/backed/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
