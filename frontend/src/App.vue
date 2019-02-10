@@ -8,7 +8,6 @@
 
 <script>
 
-
   import message from './components/Message.vue';
 
   export default {

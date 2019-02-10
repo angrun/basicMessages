@@ -1,5 +1,7 @@
 package com.messages.backed.controllers;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.messages.backed.services.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -14,11 +16,10 @@ public class MessageController {
     @Autowired
     MessageService messageService;
 
-//
-//    @CrossOrigin(origins = "http://localhost:8081")
+    @CrossOrigin()
     @GetMapping(path = "/hello")
-    public String getMessage() {
-        return messageService.getHelloWorldMessage().message;
+    public String getMessage() throws JsonProcessingException {
+        return new ObjectMapper().writeValueAsString(messageService.getHelloWorldMessage());
     }
 
 }

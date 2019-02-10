@@ -7,6 +7,6 @@ import org.springframework.stereotype.Service;
 public class MessageService {
 
     public Message getHelloWorldMessage() {
-        return new Message("Hello World!");
+        return new Message("Hello World Spring Boot and Vue.js!");
     }
 }
