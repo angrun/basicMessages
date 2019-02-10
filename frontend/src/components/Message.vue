@@ -16,6 +16,7 @@
     created() {
       this.$http.get('http://localhost:8081/hello').then(function(response)  {
         this.message = response.body.message;
+
       })
     }
   }
