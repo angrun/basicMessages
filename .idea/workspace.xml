@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9efdf94-aad3-4971-a180-62f528ead224" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/BackedApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/controllers/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backed/src/main/java/com/messages/backend/services/MessageService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/backed/.gradle/" />
@@ -74,7 +76,8 @@
           <entry key="java" value="594" />
           <entry key="js" value="50" />
           <entry key="properties" value="14" />
-          <entry key="vue" value="1173" />
+          <entry key="txt" value="14" />
+          <entry key="vue" value="1174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -83,9 +86,9 @@
           <entry key="HTML" value="5" />
           <entry key="JAVA" value="594" />
           <entry key="JavaScript" value="50" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="14" />
-          <entry key="Vue.js" value="1173" />
+          <entry key="Vue.js" value="1174" />
         </counts>
       </usages-collector>
     </session>
@@ -104,14 +107,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Message.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/controllers/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -123,7 +126,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/message/Message.java">
+        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/message/Message.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -135,7 +138,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java">
+        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/services/MessageService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
@@ -167,20 +170,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
+            <state relative-caret-position="569">
               <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java">
+        <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/BackedApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="375">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#636#809#0" expanded="true" />
@@ -202,7 +205,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -639,10 +642,10 @@
         <option value="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java" />
         <option value="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java" />
         <option value="$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java" />
-        <option value="$PROJECT_DIR$/frontend/src/components/Message.vue" />
         <option value="$PROJECT_DIR$/frontend/src/App.vue" />
         <option value="$PROJECT_DIR$/frontend/src/main.js" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Message.vue" />
       </list>
     </option>
   </component>
@@ -694,20 +697,42 @@
             <path>
               <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
               <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
               <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basicMessages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicMessages" type="462c0819:PsiDirectoryNode" />
+              <item name="backed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -729,7 +754,7 @@
     <property name="SearchEverywhereHistoryKey" value="webpack.dev.conf.js&#9;FILE&#9;file:///Users/annagrund/Desktop/basicMessages/frontend/build/webpack.dev.conf.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549788390053" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549788984308" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -775,12 +800,20 @@
       <option name="presentableId" value="Default" />
       <updated>1549740431426</updated>
       <workItem from="1549740432881" duration="2439000" />
-      <workItem from="1549743120997" duration="15014000" />
+      <workItem from="1549743120997" duration="15727000" />
     </task>
+    <task id="LOCAL-00001" summary="bugs and fixes">
+      <created>1549788406885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549788406885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17453000" />
+    <option name="totallyTimeSpent" value="18166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="231" y="-1033" width="1268" height="978" extended-state="0" />
@@ -826,6 +859,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bugs and fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugs and fixes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/README.md">
@@ -925,10 +962,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/BackedApplication.java">
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/BackedApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#636#809#0" expanded="true" />
@@ -937,17 +974,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/controllers/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/message/Message.java">
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/message/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -957,7 +984,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backed/services/MessageService.java">
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/services/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
@@ -991,17 +1018,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Message.vue">
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="569">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Message.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backed/src/main/java/com/messages/backend/controllers/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

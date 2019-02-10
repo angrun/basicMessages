@@ -1,6 +1,6 @@
-package com.messages.backed.services;
+package com.messages.backend.services;
 
-import com.messages.backed.message.Message;
+import com.messages.backend.message.Message;
 import org.springframework.stereotype.Service;
 
 @Service
